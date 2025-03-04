@@ -24,7 +24,7 @@ dependencies:
 import 'package:altair/altair.dart';
 
 // Create a client with configuration
-final client = AltairClient(
+final client = Altair(
   config: AltairConfig(
     baseUrl: 'https://api.example.com',
     refreshTokenPath: '/auth/refresh',
@@ -45,7 +45,7 @@ final usersResponse = await client.get('/api/users');
 ## Configuration
 
 ```dart
-final client = AltairClient(
+final client = Altair(
   config: AltairConfig(
     // Required
     baseUrl: 'https://api.example.com',
@@ -220,7 +220,7 @@ class MyTokenStorage implements TokenStorage {
 }
 
 // Use your custom token storage
-final client = AltairClient(
+final client = Altair(
   config: AltairConfig(...),
   tokenStorage: MyTokenStorage(),
 );

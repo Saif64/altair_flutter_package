@@ -1,6 +1,6 @@
 name: altair
 description: "A powerful Flutter network client built on top of Dio with built-in authentication, caching, and stale-while-revalidate support."
-version: 0.1.0
+version: 0.1.1
 homepage: https://github.com/Saif64/altair_flutter_package
 repository: https://github.com/Saif64/altair_flutter_package
 issue_tracker: https://github.com/Saif64/altair_flutter_package/issues
